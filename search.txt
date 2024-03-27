@@ -1,0 +1,88 @@
+task
+imperative vs declarative //
+ var imperative = "HOW?"
+ var declarative ="WHAT?" 
+
+EXAMPLE
+
+function  getSum(arr){
+var sum = 0;
+for(var i=0 ; i<arr.length; i++){
+sum+=arr[i];
+ }
+return sum;  
+
+}
+
+//
+function getSum(arr){
+return arr.reduce((prev, curr) => prev + curr ,0);
+}  
+مثال  تاني
+
+imperative 
+
+var  itemsImpertive =[];
+for(var i=0; i<items.length;i++){
+var item =items[i];
+itemsImpertive.push(item.name);
+}
+console.log(itemsImpertive);
+//
+
+var  itemsImpertive = items.map(item) => item.name
+console.log(itemsImpertive);
+
+string methods//
+ let theName ="ali";
+ console.log(theName[1]);
+console.log(theName.charAt(1));
+console.log(theName.length);
+console.log(theName.trim());
+console.log(theName.toUpperCase());
+console.log(theName.toLowerCase());
+let a ="mohamed badway";
+console.log("a.indexOF("BADWAY"));
+console.log("a.lastindexOf  ("BADWAY"));
+console.log(a.slice(0)); 
+console.log(a.repeat(4);
+console.log(a.split("")); 
+console.log(a.substring(2,5)); 
+console.log(a.substr(0.5));
+console.log(a.includes.("mohame d");
+console.log(startWith.("m"); 
+console.log(EndWith.("d");
+//////////
+
+var x= ['ali','mohamed','yousef','yasser','ahamed','yousra','nada','rola']
+x.push('xv')     اضافه من الاخر //insert element last array    
+console.log(x);
+x.shift()  مسح من الاول//remove frist element
+console.log(x); 
+ x.unshift('sd')اضافه من الاول// insert frist element
+ console.log(x)
+x.pop() مسح من الاخر//remove last element 
+console.log(x)
+ x.splice(     0,1) 
+//  index/عدد عناصر
+console.log(x);
+ console.log(x.indexOf('ali'))
+
+ ///////
+method math
+console.log("Math.round(99.2)); يقرب اكبر عدد
+console.log(Math.ceil(99.5 )); 
+console.log(Math.floor(99.9));
+console.log(Math.min(10,20,100,-10));
+console.log(Math.max (10,20,100,-10));
+onsole.log(Math.pow  ( 2,4));الاس
+console.log(Math.radom () );
+
+ 
+ console.log(Math.trunc  (99.5) );قطع
+
+
+ 
+
+
+ 
